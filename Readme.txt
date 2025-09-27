@@ -1,5 +1,5 @@
 ========================================
-    Secure Password Generator (SPG) 
+  Secure Password Generator (SPG) - v2.1
 ========================================
 
 Un generatore di password avanzato che funziona interamente nel tuo browser,
@@ -19,6 +19,11 @@ VERSIONI
   - DESCRIZIONE: Versione di massima sicurezza che include la libreria
     localmente e non richiede connessione internet.
   - USO: Consigliata per la massima privacy e per l'uso in ambienti senza rete.
+
+* SPGmobile.html
+    Versione mobile che richiede una connessione internet per
+    scaricare una libreria esterna (CryptoJS).
+  - USO: Ottimizzata per touch screen di tablet e smartphone.
 
 
 CARATTERISTICHE TECNICHE
@@ -54,10 +59,12 @@ COME USARE
     - SPGonline.html: Apri il file in un qualsiasi browser moderno con una
       connessione a internet.
     - SPGoffline.html: Assicurati che la cartella "js" si trovi nella stessa
-      directory del file HTML. Funzionerà anche offline.
+      directory del file HTML. Funzionerà anche offline. 
+    - SPGmobile.html: Apri il file in un qualsiasi browser in modalità mobile
+      su smartphone o tablet con connessione a internet.
 
-2.  RACCOGLI ENTROPIA: Muovi il mouse in modo casuale all'interno della
-    finestra del browser o, se sei su un dispositivo touch, tocca e scorri
+2.  RACCOGLI ENTROPIA: Muovi il mouse in modo casuale all'interno della finestra 
+    del browser o, se sei su un dispositivo touch, tocca e scorri
     ripetutamente sullo schermo. DEVI CONTINUARE FINCHE' L'INDICATORE NON
     RAGGIUNGE 1000/1000 PUNTI. La generazione della password non sarà
     possibile prima del completamento di questo passaggio.
